@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 75px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2.4em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.add-task{
+  margin: 20px;
+}
+.add-task input{
+  margin-right: 10px;
+  border-radius: 2px;
+}
+.task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2px;
+  height: 35px;
+  width: 350px;
+  margin: 10px;
+  box-shadow: 0px 1px 4px 1px #c4c4c4
+}
+.button-and-task {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.task-name{
+  text-decoration: line-through;
+}
+
+.optional-box{
+  margin-left: 10px;
+}
+.delete-button {
+  margin-right: 10px;
+  height: 25px;
+}
+.edit-button {
+  margin-right: 10px;
+  width: 55px;
+
+}
+.submit-button{
+  margin-right: 10px;
+  width: 55px;
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
